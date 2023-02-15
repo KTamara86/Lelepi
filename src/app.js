@@ -1,3 +1,12 @@
+/*
+File: app.js
+Author: Kukta Tamara
+Copyright: 2023, Kukta Tamara
+Group: SZOFT I-1-E
+Date: 2023-02-15
+Github: https://github.com/KTamara86/
+Licenc: GNU GPL
+*/
 
 const heightElem = document.querySelector('#height');
 const widthElem = document.querySelector('#width');
