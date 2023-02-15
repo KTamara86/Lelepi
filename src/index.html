@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lelepi</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container bg-info p-3 
+    mt-5 rounded border border-2">
+        
+        <h1>Feladat 0358</h1>
+        <p>Egy paralelepipedon test térfogatának kiszámítása az élei hosszának megadásával</p>
+
+        <div class="alakzatForm">
+            <div class="mt-3">
+                <input type="text"
+                placeholder="az 'a' él hossza"
+                class="form-control"
+                id="height">
+            </div>
+
+            <div class="mt-3">
+                <input type="text"
+                placeholder="a 'b' él hossza"
+                class="form-control"
+                id="width">
+            </div>  
+
+            <div class="mt-3">
+                <input type="text"
+                placeholder="a 'c' él hossza"
+                class="form-control"
+                id="depth">
+            </div>
+
+            <button class="btn btn-primary mt-3" id="calcButton">
+            Számol
+            </button>
+
+            <div class="mt-3">
+                <label for="area" class="form-label">Térfogat</label>
+                <input type="text"
+                readonly
+                class="form-control"
+                id="area">
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="mt-3 text-center ab">
+        Kukta Tamara, 2023-02-15
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
